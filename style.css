@@ -225,3 +225,84 @@ p {
     }
 
 }
+/* Stronger typography */
+
+body {
+    color: #17202a;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 750;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.hero h1 {
+    font-size: 52px;
+    font-weight: 800;
+}
+
+.hero-text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.area-card h3 {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.featured-card h3 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.featured-card p {
+    font-size: 18px;
+}
+
+.article-card h3 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+nav a {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .featured-card h3 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+}
