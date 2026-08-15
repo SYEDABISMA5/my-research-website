@@ -592,3 +592,33 @@ footer h3 {
     }
 
     }
+.research-tools {
+    max-width: 680px;
+    margin: 0 auto 30px;
+    display: flex;
+    gap: 12px;
+}
+
+.research-tools input,
+.research-tools select {
+    flex: 1;
+    padding: 13px 15px;
+    border: 1px solid #cbd8e5;
+    border-radius: 8px;
+    background: #ffffff;
+    font-size: 15px;
+    outline: none;
+}
+
+.research-tools input:focus,
+.research-tools select:focus {
+    border-color: #0077b6;
+}
+
+@media (max-width: 700px) {
+
+    .research-tools {
+        flex-direction: column;
+    }
+
+}
