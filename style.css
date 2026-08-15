@@ -622,3 +622,62 @@ footer h3 {
     }
 
 }
+/* ===== Dark / Light Mode ===== */
+
+.theme-toggle {
+    border: none;
+    background: #ffffff;
+    color: #12355b;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.08);
+}
+
+body.dark-mode {
+    background: #111827;
+    color: #e5e7eb;
+}
+
+body.dark-mode .navbar,
+body.dark-mode footer {
+    background: #0b1324;
+}
+
+body.dark-mode .hero h1,
+body.dark-mode .section-title h2,
+body.dark-mode .article-card h3 {
+    color: #ffffff;
+}
+
+body.dark-mode .hero h2,
+body.dark-mode .eyebrow,
+body.dark-mode .section-title span,
+body.dark-mode .area-card h3,
+body.dark-mode .article-label {
+    color: #38bdf8;
+}
+
+body.dark-mode .article-card,
+body.dark-mode .area-card {
+    background: #1f2937;
+    border-color: #374151;
+}
+
+body.dark-mode .research-tools input,
+body.dark-mode .research-tools select {
+    background: #1f2937;
+    color: #ffffff;
+    border-color: #4b5563;
+}
+
+body.dark-mode .theme-toggle {
+    background: #1f2937;
+    color: #facc15;
+}
