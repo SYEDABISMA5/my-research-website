@@ -320,7 +320,43 @@
 
     </footer>
 
+<script>
 
+const searchInput = document.getElementById("articleSearch");
+const topicFilter = document.getElementById("topicFilter");
+const articles = document.querySelectorAll(".article-card");
+
+function filterArticles() {
+
+    const searchText = searchInput.value.toLowerCase();
+    const selectedTopic = topicFilter.value;
+
+    articles.forEach(article => {
+
+        const title = article.dataset.title.toLowerCase();
+        const topic = article.dataset.topic;
+
+        const matchesSearch =
+            title.includes(searchText);
+
+        const matchesTopic =
+            selectedTopic === "all" ||
+            topic === selectedTopic;
+
+        if (matchesSearch && matchesTopic) {
+            article.style.display = "block";
+        } else {
+            article.style.display = "none";
+        }
+
+    });
+
+}
+
+searchInput.addEventListener("input", filterArticles);
+topicFilter.addEventListener("change", filterArticles);
+
+</script>
 </body>
 
 </html>
