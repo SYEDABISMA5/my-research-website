@@ -126,4 +126,64 @@ p {
     main {
         margin: 25px auto;
     }
+}/* Hero section */
+
+.hero {
+    background: linear-gradient(135deg, #12355b, #1d5d8f);
+    color: white;
+    text-align: center;
+    padding: 80px 25px;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 40px;
+}
+
+.eyebrow {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 48px;
+    margin: 10px 0 20px;
+}
+
+.hero-text {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-size: 19px;
+    line-height: 1.7;
+}
+
+.hero-button {
+    display: inline-block;
+    background-color: white;
+    color: #12355b;
+    padding: 13px 25px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-button:hover {
+    background-color: #e9eef3;
+}
+
+/* Mobile hero */
+
+@media (max-width: 600px) {
+
+    .hero {
+        padding: 55px 18px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .hero-text {
+        font-size: 17px;
+    }
 }
