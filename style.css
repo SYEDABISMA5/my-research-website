@@ -681,3 +681,26 @@ body.dark-mode .theme-toggle {
     background: #1f2937;
     color: #facc15;
 }
+.article-meta {
+    max-width: 750px;
+    margin: 15px auto 25px;
+    padding: 18px 22px;
+    background: #f1f7fb;
+    border-left: 4px solid #0077b6;
+    border-radius: 8px;
+}
+
+.article-meta p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #334e68;
+}
+
+@media print {
+
+    .article-meta {
+        background: white;
+        border-left: 3px solid #000;
+    }
+
+}
