@@ -306,3 +306,24 @@ nav a {
         font-size: 17px;
     }
 }
+/* Footer */
+
+footer {
+    background-color: #12355b;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 60px;
+}
+
+footer h3 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: white;
+    font-size: 16px;
+    margin: 8px 0;
+}
