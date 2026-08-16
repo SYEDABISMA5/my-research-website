@@ -966,3 +966,13 @@ body.dark-mode .timeline-dot {
 body.dark-mode .share-section p {
     color: #ffffff;
 }
+/* JSTOR-inspired academic title style */
+
+.hero h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #12355b;
+    line-height: 1.15;
+}
