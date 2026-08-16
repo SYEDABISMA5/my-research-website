@@ -925,3 +925,44 @@ body.dark-mode .timeline-dot {
     }
 
     }
+.share-section {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.share-section p {
+    font-weight: 700;
+    color: #12355b;
+    margin-bottom: 12px;
+}
+
+.share-button {
+    display: inline-block;
+    padding: 9px 15px;
+    margin: 4px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.whatsapp {
+    background: #25D366;
+}
+
+.facebook {
+    background: #1877F2;
+}
+
+.x-share {
+    background: #111111;
+}
+
+.share-button:hover {
+    transform: translateY(-2px);
+}
+
+body.dark-mode .share-section p {
+    color: #ffffff;
+}
