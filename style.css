@@ -976,3 +976,14 @@ body.dark-mode .share-section p {
     color: #12355b;
     line-height: 1.15;
 }
+.logo img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+}
+@media (max-width: 600px) {
+    .logo img {
+        width: 58px;
+        height: 58px;
+    }
+}
